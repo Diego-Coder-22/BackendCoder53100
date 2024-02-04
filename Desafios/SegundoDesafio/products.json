@@ -1,0 +1,29 @@
+[
+	{
+		"id": 1,
+		"title": "Kingz",
+		"description": "Kimono Jiu-Jitsu Brasileño Kingz Junior Azul",
+		"price": "59,99",
+		"thumbnail": "new_imagen_kimono_junior_azul",
+		"code": "8542399",
+		"stock": "25"
+	},
+	{
+		"id": 2,
+		"title": "Kingz",
+		"description": "Kimono Jiu-Jitsu Brasileño Kingz Junior Blanco",
+		"price": "79,99",
+		"thumbnail": "imagen_kimono_junior_blanco",
+		"code": "8542398",
+		"stock": "15"
+	},
+	{
+		"id": 4,
+		"title": "Kingz",
+		"description": "Kimono Jiu-Jitsu Brasileño Kingz Adulto Negro",
+		"price": "99,99",
+		"thumbnail": "imagen_kimono_adulto_negro",
+		"code": "8542396",
+		"stock": "8"
+	}
+]
