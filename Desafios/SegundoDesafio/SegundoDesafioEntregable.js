@@ -4,7 +4,7 @@ class ProductManager {
   constructor(path) {
     this.products = [];
     this.currentId = 1;
-    this.path = "./products.json";
+    this.path = path;
   }
 
   getProducts = async () => {
@@ -90,7 +90,7 @@ let changes = {
 console.log("Producto modificado con exito");
 
 async function probe() {
-    const productManager = new ProductManager("./productos.json");
+    const productManager = new ProductManager("./products.json");
   await productManager.getProducts();
   await productManager.addProduct("Kingz", "Kimono Jiu-Jitsu Brasileño Kingz Junior Azul", "69,99", "imagen_kimono_junior_azul","8542399","25");
   await productManager.addProduct("Kingz", "Kimono Jiu-Jitsu Brasileño Kingz Junior Blanco", "79,99", "imagen_kimono_junior_blanco","8542398","15");
