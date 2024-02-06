@@ -4,7 +4,7 @@ class ProductManager {
   constructor(path) {
     this.products = [];
     this.currentId = 1;
-    this.path = "./products.json";
+    this.path = path;
   }
 
   getProducts = async () => {
